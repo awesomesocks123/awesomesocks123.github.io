@@ -4,7 +4,6 @@
     "label": "Aspiring Engineer",
     "image": "",
     "email": "Sopheak.Chim15@gmail.com",
-    "phone": "(562) 541-5911",
     "url": "https://github.com/awesomesocks123",
     "summary": "Aspiring Engineer with a strong foundation in scripting, automation, and diagnostics. Experienced in Linux environments, MERN stack development, and project-based collaboration. Seeking SWE/SDE roles that combine hands-on technical skills with a strong focus on design, user experience, and test-driven development.",
     "location": {
@@ -31,10 +30,8 @@
       "endDate": "Present",
       "summary": "Developing automation scripts and performing diagnostics for R&D.",
       "highlights": [
-        "Developed Bash scripts to batch-run internal test scripts, streamlining diagnostics for R&D and reducing setup time.",
         "Troubleshot hardware/software edge cases by parsing test logs, using Linux CLI tools to distinguish between script errors and firmware/radio malfunctions.",
         "Supported internal CRM systems and QA processes by maintaining traceable logs, summaries, and device testing status.",
-        "Authored internal documentation to onboard new technicians and standardize diagnostic workflows.",
         "Collaborated cross-functionally with Engineering and QC for root cause analysis and early-stage test coverage improvement."
       ]
     },

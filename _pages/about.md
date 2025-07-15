@@ -21,12 +21,11 @@ nav_sections:
   - projects
   - repositories
   - cv
-  - bookshelf
 ---
 
 ## About Me
 
-I'm Sopheak Chim, an aspiring engineer with a strong foundation in scripting, automation, and diagnostics. I recently graduated with a Bachelor of Science in Computer Science from California State University, Long Beach. My technical journey spans from hands-on automation at Silvus Technologies to developing full-stack applications using the MERN stack.
+I'm Sopheak Chim, an aspiring engineer with a strong foundation in scripting, automation, and diagnostics. I recently graduated with a Bachelor of Science in Computer Science from California State University, Long Beach. My technical journey spans from hands-on automation at Silvus Technologies to developing full-stack applications.
 
 ## What I Do
 
@@ -34,7 +33,7 @@ I'm passionate about creating software that solves real-world problems. My exper
 
 - Developing automation scripts for streamlining diagnostics and testing processes
 - Building web applications with React, Node.js, and MongoDB
-- Creating voice-based AI assistants using cutting-edge technologies
+- Integrating API calls to external services for data retrieval and processing
 - Designing intuitive user interfaces with modern frameworks like TailwindCSS
 
 ## My Approach
