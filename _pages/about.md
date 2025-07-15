@@ -2,33 +2,47 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Aspiring Engineer | Software Developer | Tech Enthusiast
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Long Beach, California</p>
+    <p>Sopheak.Chim15@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# Navigation sections to include
+nav_sections:
+  - about
+  - blog
+  - projects
+  - repositories
+  - cv
+  - bookshelf
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## About Me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm Sopheak Chim, an aspiring engineer with a strong foundation in scripting, automation, and diagnostics. I recently graduated with a Bachelor of Science in Computer Science from California State University, Long Beach. My technical journey spans from hands-on automation at Silvus Technologies to developing full-stack applications using the MERN stack.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## What I Do
+
+I'm passionate about creating software that solves real-world problems. My experience includes:
+
+- Developing automation scripts for streamlining diagnostics and testing processes
+- Building web applications with React, Node.js, and MongoDB
+- Creating voice-based AI assistants using cutting-edge technologies
+- Designing intuitive user interfaces with modern frameworks like TailwindCSS
+
+## My Approach
+
+I believe in combining technical excellence with user-centered design. Whether I'm troubleshooting hardware/software edge cases or building a responsive web application, I focus on creating solutions that are both technically sound and enjoyable to use.
+
+Feel free to explore my [projects](/projects/), check out my [GitHub repositories](https://github.com/awesomesocks123), or take a look at my [CV](/cv/) for more details about my background and experience.
+
+## Current Focus
+
+I'm currently seeking SWE/SDE roles that combine hands-on technical skills with a strong focus on design, user experience, and test-driven development. I'm particularly interested in opportunities where I can leverage my experience with the MERN stack, automation, and Linux environments.

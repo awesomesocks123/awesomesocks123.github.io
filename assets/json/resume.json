@@ -59,7 +59,13 @@
       "startDate": "2019-08-01",
       "endDate": "2024-05-01",
       "score": "",
-      "courses": ["Operating Systems", "Networks", "Algorithms", "Software Development", "Embedded Systems"]
+      "courses": [
+        "Operating Systems",
+        "Networks",
+        "Algorithms",
+        "Software Development",
+        "Embedded Systems"
+      ]
     }
   ],
   "awards": [],
@@ -70,12 +76,7 @@
       "name": "Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "JavaScript",
-        "Python",
-        "Bash",
-        "HTML/CSS"
-      ]
+      "keywords": ["JavaScript", "Python", "Bash", "HTML/CSS"]
     },
     {
       "name": "Frameworks & Libraries",
@@ -133,8 +134,8 @@
       "name": "Real-Time MERN Chat App",
       "summary": "Built and deployed a complete chat system using the MERN stack and Socket.io for live messaging. Collaborated in an Agile team using Figma for UI design, GitHub Projects for sprint planning, and peer code reviews for QA.",
       "highlights": [
-        "Implemented persistent chat with MongoDB", 
-        "Created modular API routes with Express", 
+        "Implemented persistent chat with MongoDB",
+        "Created modular API routes with Express",
         "Built dynamic frontend using React and DaisyUI"
       ],
       "startDate": "",
@@ -145,8 +146,8 @@
       "name": "AI Desktop Assistant Overlay",
       "summary": "Built an Electron-based voice assistant overlay tool for personal productivity and LLM interaction. Integrated Whisper for speech-to-text, DeepSeek API for contextual LLM responses, and Kkokoro TTS for audio output.",
       "highlights": [
-        "Designed a transparent floating chat overlay for passive multitasking", 
-        "Implemented start/stop recording functionality", 
+        "Designed a transparent floating chat overlay for passive multitasking",
+        "Implemented start/stop recording functionality",
         "Added clipboard access and passive screen overlay chat"
       ],
       "startDate": "",
@@ -156,9 +157,7 @@
     {
       "name": "Weather-Based Outfit Color Recommender",
       "summary": "Pulled live weather data using WeatherAPI mapped conditions to warm/cool color palettes, and generated matching tones using a colour-combination-dictionary. Rendered suggestions dynamically based on real-time temperature analysis.",
-      "highlights": [
-        "Built with custom UI components using React and TailwindCSS"
-      ],
+      "highlights": ["Built with custom UI components using React and TailwindCSS"],
       "startDate": "",
       "endDate": "",
       "url": "https://weather-app-puce-pi-66.vercel.app/"
