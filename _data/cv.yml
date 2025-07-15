@@ -2,11 +2,13 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sopheak Seng
+    - name: Location
+      value: Long Beach, CA
+    - name: Email
+      value: sopheak@example.com
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
