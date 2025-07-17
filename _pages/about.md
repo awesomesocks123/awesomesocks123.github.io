@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Aspiring Engineer | Software Developer | Tech Enthusiast
+subtitle:
 
 profile:
   align: right
@@ -23,9 +23,9 @@ nav_sections:
   - cv
 ---
 
-## About Me
+# **Sopheak** Chim
 
-I'm Sopheak Chim, an aspiring engineer with a strong foundation in scripting, automation, and diagnostics. I recently graduated with a Bachelor of Science in Computer Science from California State University, Long Beach. My technical journey spans from hands-on automation at Silvus Technologies to developing full-stack applications.
+An aspiring engineer & developer with a strong foundation in scripting, automation, and diagnostics. I recently graduated with a Bachelor of Science in Computer Science from California State University, Long Beach. My technical journey spans from hands-on automation at Silvus Technologies to developing full-stack applications.
 
 ## What I Do
 
