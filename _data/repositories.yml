@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - awesomesocks123
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - awesomesocks123/logged
+  - awesomesocks123/weather-app
+  - awesomesocks123/chat
+  - awesomesocks123/pomodoro-app
+  - awesomesocks123/testmocks
+  - awesomesocks123/ice-dogs-threat-model
