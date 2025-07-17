@@ -1,81 +1,50 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Weather Color Palette
+description: A web-app that suggests color palettes for outfits based on live weather conditions
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+category: personal
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Outfit Color Palette
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Check it out here: [Weather Color Picker](https://weather-app-puce-pi-66.vercel.app/)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A simple web-app that suggests color palettes for outfits based on live weather conditions in any city worldwide.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Features
+- Search for any city and view current weather conditions
+- Get weather-based color palette suggestions for your outfit
+- Don't like it? Shuffle for a new color palette !
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Tech Stack
+- **Frontend:** React 19, Next.js 15 (App Router), Tailwind CSS, DaisyUI
+- **Backend/API:** Next.js API Routes (Edge/serverless functions)
+- **Weather Data:** [WeatherAPI.com](https://weatherapi.com)
+- **Color Data:** [Using Sanzo Wada's color combination via mattdesl dicionary of colour combinations](https://github.com/mattdesl/dictionary-of-colour-combinations)
+- **Deployment:** Vercel
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## How It Works
+1. Enter a city name to get instant suggestions.
+2. Select a city to see live weather and a color palette for your outfit.
+3. All weather data is securely fetched via backend API routes.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Getting Started
+1. Clone the repo and install dependencies:
+   ```bash
+   npm install
+   ```
+2. Add your WeatherAPI key to `.env.local`:
+   ```env
+   WEATHER_API_KEY=your_api_key_here
+   ```
+3. Run locally:
+   ```bash
+   npm run dev
+   ```
+4. Deploy to Vercel for production.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Created with Next.js, React, and Tailwind CSS.**
