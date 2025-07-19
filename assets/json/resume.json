@@ -5,7 +5,7 @@
     "image": "",
     "email": "Sopheak.Chim15@gmail.com",
     "url": "https://github.com/awesomesocks123",
-    "summary": "Aspiring Engineer with a strong foundation in scripting, automation, and diagnostics. Experienced in Linux environments, MERN stack development, and project-based collaboration. Seeking SWE/SDE roles that combine hands-on technical skills with a strong focus on design, user experience, and test-driven development.",
+    "summary": "Developer with a strong foundation in scripting, automation, and diagnostics. Experienced in Linux environments, MERN stack development, and project-based collaboration. Seeking SWE/SDE roles that combine hands-on technical skills with a strong focus on design, user experience, and test-driven development.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,7 +28,7 @@
       "url": "",
       "startDate": "2024-07-01",
       "endDate": "Present",
-      "summary": "Developing automation scripts and performing diagnostics for R&D.",
+      "summary": "Automation scripts and performing diagnostics for QA.",
       "highlights": [
         "Troubleshot hardware/software edge cases by parsing test logs, using Linux CLI tools to distinguish between script errors and firmware/radio malfunctions.",
         "Supported internal CRM systems and QA processes by maintaining traceable logs, summaries, and device testing status.",
@@ -41,7 +41,7 @@
       "url": "",
       "startDate": "2024-07-01",
       "endDate": "2024-11-01",
-      "summary": "Delivered knowledgeable customer support on electronics products and resolved technical issues through first-line troubleshooting.",
+      "summary": "Delivered customer support on electronics products and resolved technical issues through first-line troubleshooting.",
       "highlights": []
     }
   ],
@@ -73,7 +73,7 @@
       "name": "Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": ["JavaScript", "Python", "Bash", "HTML/CSS"]
+      "keywords": ["Python", "JavaScript", "HTML/CSS"]
     },
     {
       "name": "Frameworks & Libraries",
@@ -117,19 +117,13 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
+
   "interests": [],
   "references": [],
   "projects": [
     {
-      "name": "Real-Time MERN Chat App",
-      "summary": "Built and deployed a complete chat system using the MERN stack and Socket.io for live messaging. Collaborated in an Agile team using Figma for UI design, GitHub Projects for sprint planning, and peer code reviews for QA.",
+      "name": "Real-Time MERN Chat App | Chamo",
+      "summary": "Built and deployed a complete chat system using the MERN stack and Socket.io for live messaging. Collaborated in an Agile team using Figma for UI design and peer code reviews for QA.",
       "highlights": [
         "Implemented persistent chat with MongoDB",
         "Created modular API routes with Express",
@@ -137,19 +131,19 @@
       ],
       "startDate": "",
       "endDate": "",
-      "url": ""
+      "url": "https://github.com/awesomesocks123/chat"
     },
     {
       "name": "AI Desktop Assistant Overlay",
-      "summary": "Built an Electron-based voice assistant overlay tool for personal productivity and LLM interaction. Integrated Whisper for speech-to-text, DeepSeek API for contextual LLM responses, and Kkokoro TTS for audio output.",
+      "summary": "Built an Electron-based voice assistant overlay tool for personal productivity and LLM interaction. Integrated Whisper for speech-to-text, System Prompt Engineering, DeepSeek API for contextual LLM responses, and Kkokoro TTS for audio output.",
       "highlights": [
         "Designed a transparent floating chat overlay for passive multitasking",
-        "Implemented start/stop recording functionality",
+        "System prompt engineering for tailoring LLM responses",
         "Added clipboard access and passive screen overlay chat"
       ],
       "startDate": "",
       "endDate": "",
-      "url": ""
+      "url": "https://github.com/awesomesocks123/testmocks"
     },
     {
       "name": "Weather-Based Outfit Color Recommender",
@@ -158,18 +152,6 @@
       "startDate": "",
       "endDate": "",
       "url": "https://weather-app-puce-pi-66.vercel.app/"
-    },
-    {
-      "name": "Boba Shop Site (HLT)",
-      "summary": "Partnered directly with the business owner to scope features, establish timelines, and translate goals into a web-friendly design system. Designed and developed a fully responsive site from scratch using Next.js and TailwindCSS.",
-      "highlights": [
-        "Acted as both developer and UI/UX consultant",
-        "Implemented menu filtering functionality",
-        "Built custom components for product displays and filtering"
-      ],
-      "startDate": "",
-      "endDate": "",
-      "url": ""
     }
   ]
 }
