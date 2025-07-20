@@ -1,32 +1,64 @@
 ---
 layout: page
 title: Logged
-description: A personal activity tracking application
+description: Collaborative task management application with real-time features
 img: assets/img/3.jpg
-importance: 2
+importance: 3
 category: personal
+github: https://github.com/awesomesocks123/logged
 ---
 
-# Logged: Personal Activity Tracker
+# Logged: Collaborative Task Management
 
-A minimalist web application for tracking daily activities, habits, and personal metrics.
+[View on GitHub](https://github.com/awesomesocks123/logged)
 
-## Features
+## Project Overview
 
-- Track daily activities and habits
-- Visualize progress with clean, intuitive charts
-- Set goals and receive notifications
-- Export data for personal analysis
+Logged is a collaborative task management application inspired by Trello, designed for teams to organize projects and track progress in real-time. Built with modern web technologies, it features boards, cards, and tasks with drag-and-drop functionality and real-time collaboration capabilities.
 
-## Tech Stack
+## Key Features
 
-- **Frontend**: React, Redux, Chart.js
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Authentication**: JWT
+### Board Management
+- Create multiple boards for different projects or subjects
+- Real-time collaboration using Liveblocks
+- Rich text editing with TipTap editor
 
-## Coming Soon
+### Card System
+- Organize tasks into cards (Todo, WIP, Done)
+- Intuitive drag-and-drop sorting with SortableJS
+- Markdown support for rich descriptions
 
-- Mobile application
-- Advanced analytics
-- Integration with fitness devices
+### Task Tracking
+- Add tasks with detailed descriptions and due dates
+- View task activity history and logs
+- Visual progress tracking similar to GitHub contributions grid
+
+### User Experience
+- Clean, responsive interface
+- Seamless real-time updates
+- Intuitive navigation between boards and cards
+
+## Technology Stack
+
+### Frontend
+- **Next.js 15**: React framework for production
+- **React 19**: UI component library
+- **Tailwind CSS**: Utility-first styling
+- **TipTap Editor**: Rich text editing capabilities
+- **Liveblocks**: Real-time collaboration features
+- **SortableJS**: Drag-and-drop functionality
+- **React Datepicker**: Date selection component
+
+### Backend
+- **Next.js API Routes**: Server-side functionality
+- **NextAuth**: Authentication system
+- **MongoDB**: Database for persistent storage
+- **Yjs**: CRDT for collaborative editing
+
+### Additional Libraries
+- **date-fns**: Date utility functions
+- **Font Awesome**: Icon library
+
+## Development Approach
+
+Logged was built with a focus on user experience and real-time collaboration. The application leverages modern web technologies to provide a seamless, responsive interface that works across devices. The real-time collaboration features make it particularly useful for distributed teams working on shared projects.

@@ -90,63 +90,18 @@ pagination:
 </div> -->
 {% endif %}
 
-  <div class="book-reports">
-    <h3>All Blog Posts</h3>
-    
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
-    
-    <div class="row">
-    {% for post in postlist %}
-      {% if post.external_source == blank %}
-        {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-      {% else %}
-        {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-      {% endif %}
-      {% assign year = post.date | date: "%Y" %}
-      {% assign tags = post.tags | join: "" %}
-      {% assign categories = post.categories | join: "" %}
-      
-      <div class="col-md-12 mb-4">
-        <div class="card hoverable">
-          <div class="card-body">
-            <h4>
-              <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h4>
-            <p>{{ post.description }}</p>
-            <p class="post-meta">
-              {{ read_time }} min read &nbsp; &middot; &nbsp;
-              {{ post.date | date: '%B %d, %Y' }}
-            </p>
-            <p class="post-tags">
-              <a href="{{ year | prepend: '/blog/' | relative_url }}">
-                <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
-              
-              {% if tags != "" %}
-                &nbsp; &middot; &nbsp;
-                {% for tag in post.tags %}
-                  <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
-                    <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-                  {% unless forloop.last %}&nbsp;{% endunless %}
-                {% endfor %}
-              {% endif %}
-              
-              {% if categories != "" %}
-                &nbsp; &middot; &nbsp;
-                {% for category in post.categories %}
-                  <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
-                    <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
-                  {% unless forloop.last %}&nbsp;{% endunless %}
-                {% endfor %}
-              {% endif %}
-            </p>
+  <div class="coming-soon-banner">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+          <div class="text-center">
+            <h2 class="mb-3">Blog Coming Soon</h2>
+            <p class="lead">I'm currently reading & working on some stealthy projects.</p>
+            <p>Check back soon!</p>
+            <div class="mt-4">
+              <i class="fa-solid fa-pen-to-square fa-2x"></i>
+            </div>
           </div>
-        </div>
       </div>
-    {% endfor %}
     </div>
   </div>
 

@@ -23,6 +23,15 @@
   },
   "work": [
     {
+      "name": "Walmart",
+      "position": "Electronics Sales Associate",
+      "url": "",
+      "startDate": "2024-07-01",
+      "endDate": "2024-11-01",
+      "summary": "Delivered customer support on electronics products and resolved technical issues through first-line troubleshooting.",
+      "highlights": []
+    },
+    {
       "name": "Silvus Technologies",
       "position": "Test Automation & Diagnostics Technician",
       "url": "",
@@ -34,15 +43,6 @@
         "Supported internal CRM systems and QA processes by maintaining traceable logs, summaries, and device testing status.",
         "Collaborated cross-functionally with Engineering and QC for root cause analysis and early-stage test coverage improvement."
       ]
-    },
-    {
-      "name": "Walmart",
-      "position": "Electronics Sales Associate",
-      "url": "",
-      "startDate": "2024-07-01",
-      "endDate": "2024-11-01",
-      "summary": "Delivered customer support on electronics products and resolved technical issues through first-line troubleshooting.",
-      "highlights": []
     }
   ],
   "volunteer": [],

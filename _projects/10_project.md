@@ -3,25 +3,24 @@ layout: page
 title: Threat Modeling & Risk Analysis
 description: Long Beach Ice Dogs Data Center Security Assessment
 img: assets/img/threat-modeling.jpg
-importance: 3
+importance: 4
 category: personal
+github: https://github.com/awesomesocks123/ice-dogs-security
 ---
 
-# 🛡️ Threat Modeling & Risk Analysis: Long Beach Ice Dogs Data Center
+# Threat Modeling & Risk Analysis: Long Beach Ice Dogs Data Center
 
-## 📘 Project Overview
+## Project Overview
 
 **Date**: January 2022 – May 2022  
 **Project Type**: Capstone-style Threat Modeling & Security Assessment  
 **Target System**: 2023 Long Beach Ice Dogs Facility (Fictional Data Center)
 
-This project involved conducting a comprehensive **threat modeling and risk mitigation analysis** for a fictional yet realistically designed data center. The project was designed to simulate the duties of a security analyst, focusing on identifying potential security threats and mapping them to controls from well-established cybersecurity frameworks.
+This project involved conducting a comprehensive threat modeling and risk mitigation analysis for a fictional yet realistically designed data center. The project was designed to simulate the duties of a security analyst, focusing on identifying potential security threats and mapping them to controls from well-established cybersecurity frameworks.
 
----
+## Methodology
 
-## 🧠 Methodology
-
-### 🧱 Frameworks & Standards Used
+### Frameworks & Standards Used
 
 The project integrated multiple leading cybersecurity models and frameworks:
 - **STRIDE Threat Model** – for categorizing and reasoning about threat types
@@ -29,9 +28,7 @@ The project integrated multiple leading cybersecurity models and frameworks:
 - **CIS Critical Security Controls (v8)** – for identifying and validating control gaps
 - **NIST Cybersecurity Framework** – to guide risk assessment and control selection
 
----
-
-## 🔍 Scope & Execution
+## Scope & Execution
 
 - **Identified 100 unique security threats** to assets within the Long Beach Ice Dogs facility
 - **Developed 100 corresponding mitigations**, either technical or administrative
@@ -40,9 +37,7 @@ The project integrated multiple leading cybersecurity models and frameworks:
   - **Impact** on the system or organization
   - **Residual Risk** after applying mitigation
 
----
-
-## 🔒 Control Categorization
+## Control Categorization
 
 Controls were classified into:
 - **Technical Controls** – e.g., firewalls, logging systems, access management
@@ -50,9 +45,7 @@ Controls were classified into:
 
 Each mitigation was reviewed for effectiveness and mapped to violated **CIS Controls** and relevant **NIST functions** (Identify, Protect, Detect, Respond, Recover).
 
----
-
-## 📊 Deliverables
+## Deliverables
 
 - **Threat Matrix Spreadsheet**:
   - STRIDE Category
@@ -66,7 +59,7 @@ Each mitigation was reviewed for effectiveness and mapped to violated **CIS Cont
 
 ---
 
-## 📌 Sample Threat Entry
+## Sample Threat Entry
 
 <div class="table-responsive">
   <table class="table table-sm">
@@ -97,9 +90,7 @@ Each mitigation was reviewed for effectiveness and mapped to violated **CIS Cont
   </table>
 </div>
 
----
-
-## 🧰 Tools & References
+## Tools & References
 
 - Microsoft Excel (Threat Matrix)
 - CIS Controls v8 documentation
@@ -107,18 +98,14 @@ Each mitigation was reviewed for effectiveness and mapped to violated **CIS Cont
 - MITRE ATT&CK Navigator
 - OWASP Top 10 for application-level threat references
 
----
+## Project Outcomes
 
-## 💼 Project Outcomes
+- Demonstrated ability to conduct structured threat modeling
+- Practiced risk prioritization and remediation planning
+- Strengthened understanding of industry cybersecurity standards
+- Learned how to align real-world threats with existing security control frameworks
+- Produced a clear, actionable, and professional-grade risk findings document
 
-- Demonstrated ability to conduct **structured threat modeling**
-- Practiced **risk prioritization** and remediation planning
-- Strengthened understanding of **industry cybersecurity standards**
-- Learned how to align real-world threats with existing **security control frameworks**
-- Produced a clear, actionable, and professional-grade **risk findings document**
+## Summary
 
----
-
-## 🧾 Summary
-
-> Using a blend of STRIDE, MITRE ATT&CK, CIS Controls, and NIST guidance, I identified 100 realistic cybersecurity threats and proposed practical, standards-aligned mitigations. This project not only developed my analytical and documentation skills but also simulated the risk evaluation responsibilities of a security analyst in a corporate or government IT environment.
+Using a blend of STRIDE, MITRE ATT&CK, CIS Controls, and NIST guidance, I identified 100 realistic cybersecurity threats and proposed practical, standards-aligned mitigations. This project developed my analytical and documentation skills while simulating the risk evaluation responsibilities of a security analyst in a corporate or government IT environment.

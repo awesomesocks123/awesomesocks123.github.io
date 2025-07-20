@@ -4,9 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - awesomesocks123/ice-dogs-threat-model
-  - awesomesocks123/logged
-  - awesomesocks123/weather-app
   - awesomesocks123/chat
+  - awesomesocks123/weather-app
+  - awesomesocks123/logged
+  - awesomesocks123/ice-dogs-threat-model
+  - awesomesocks123/testmocks
   - awesomesocks123/pomodoro-app
-  - awesomesocks1sure23/testmocks

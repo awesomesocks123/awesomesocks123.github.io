@@ -3,31 +3,26 @@ layout: page
 title: Pomodoro Timer
 description: A productivity tool based on the Pomodoro Technique
 img: assets/img/9.jpg
-importance: 4
+importance: 6
 category: personal
+github: https://github.com/awesomesocks123/pomodoro
 ---
 
 # Pomodoro Timer Application
 
-A clean, minimalist productivity application implementing the popular Pomodoro Technique for time management.
+[View on GitHub](https://github.com/awesomesocks123/pomodoro-app)
 
-## Features
+## Project Overview
 
-- Customizable work/break intervals
-- Task tracking and statistics
-- Notification system with sounds
-- Dark/light theme toggle
-- Session history and analytics
+A simple, transparent Pomodoro timer built with Electron. This minimalist application stays on top of other windows with an unobtrusive transparent interface, helping you track work and break intervals without disrupting your workflow.
+
+## Key Features
+
+- **Always-on-top Display**: Transparent timer that remains visible over other applications
+- **Simple Controls**: Start, pause, and reset functionality
+- **Customizable Intervals**: Basic work/break duration settings
 
 ## Tech Stack
 
-- **Frontend**: React, Redux
-- **Styling**: Styled Components
-- **Storage**: LocalStorage/IndexedDB
-- **Notifications**: Web Notifications API
+React + Electron
 
-## Coming Soon
-
-- Cloud sync across devices
-- Detailed productivity reports
-- Integration with task management apps

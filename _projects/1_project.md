@@ -3,20 +3,36 @@ layout: page
 title: Weather Color Palette
 description: A web-app that suggests color palettes for outfits based on live weather conditions
 img: assets/img/12.jpg
-importance: 1
+importance: 2
 category: personal
+github: https://github.com/awesomesocks123/weather-palette
 ---
 
-# Outfit Color Palette
+# Weather Color Palette
 
-Check it out here: [Weather Color Picker](https://weather-app-puce-pi-66.vercel.app/)
+[View Live Demo](https://weather-app-puce-pi-66.vercel.app/) | [View on GitHub](https://github.com/awesomesocks123/weather-app)
 
-A simple web-app that suggests color palettes for outfits based on live weather conditions in any city worldwide.
+## Project Overview
 
-## Features
-- Search for any city and view current weather conditions
-- Get weather-based color palette suggestions for your outfit
-- Don't like it? Shuffle for a new color palette !
+Weather Color Palette is an intuitive web application that suggests outfit color combinations based on real-time weather conditions. By entering any city worldwide, users receive color palette recommendations that complement the current weather, helping them dress appropriately while maintaining style.
+
+## Key Features
+
+- **Global Weather Search**: Access current conditions for any city worldwide
+- **Dynamic Color Suggestions**: Receive color palettes that match the weather mood
+- **Palette Shuffling**: Generate new color combinations with a single click
+- **Responsive Design**: Seamless experience across desktop and mobile devices
+- **Real-time Updates**: Current weather data from OpenWeather API
+
+## Implementation
+
+The application uses a combination of modern web technologies and third-party APIs to deliver a seamless user experience:
+
+- **React**: Component-based UI architecture
+- **OpenWeather API**: Real-time weather data
+- **Color Theory Algorithms**: Custom logic for weather-to-color mapping
+- **CSS Variables**: Dynamic color application throughout the interface
+- **Responsive Design**: Mobile-first approach with adaptive layouts
 
 ## Tech Stack
 - **Frontend:** React 19, Next.js 15 (App Router), Tailwind CSS, DaisyUI
@@ -29,22 +45,5 @@ A simple web-app that suggests color palettes for outfits based on live weather 
 1. Enter a city name to get instant suggestions.
 2. Select a city to see live weather and a color palette for your outfit.
 3. All weather data is securely fetched via backend API routes.
-
-## Getting Started
-1. Clone the repo and install dependencies:
-   ```bash
-   npm install
-   ```
-2. Add your WeatherAPI key to `.env.local`:
-   ```env
-   WEATHER_API_KEY=your_api_key_here
-   ```
-3. Run locally:
-   ```bash
-   npm run dev
-   ```
-4. Deploy to Vercel for production.
-
----
 
 **Created with Next.js, React, and Tailwind CSS.**
