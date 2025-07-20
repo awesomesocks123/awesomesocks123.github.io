@@ -1,81 +1,64 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Logged
+description: Collaborative task management application with real-time features
 img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+importance: 3
+category: personal
+github: https://github.com/awesomesocks123/logged
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Logged: Collaborative Task Management
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[View on GitHub](https://github.com/awesomesocks123/logged)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Logged is a collaborative task management application inspired by Trello, designed for teams to organize projects and track progress in real-time. Built with modern web technologies, it features boards, cards, and tasks with drag-and-drop functionality and real-time collaboration capabilities.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Features
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Board Management
+- Create multiple boards for different projects or subjects
+- Real-time collaboration using Liveblocks
+- Rich text editing with TipTap editor
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Card System
+- Organize tasks into cards (Todo, WIP, Done)
+- Intuitive drag-and-drop sorting with SortableJS
+- Markdown support for rich descriptions
 
-{% raw %}
+### Task Tracking
+- Add tasks with detailed descriptions and due dates
+- View task activity history and logs
+- Visual progress tracking similar to GitHub contributions grid
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### User Experience
+- Clean, responsive interface
+- Seamless real-time updates
+- Intuitive navigation between boards and cards
 
-{% endraw %}
+## Technology Stack
+
+### Frontend
+- **Next.js 15**: React framework for production
+- **React 19**: UI component library
+- **Tailwind CSS**: Utility-first styling
+- **TipTap Editor**: Rich text editing capabilities
+- **Liveblocks**: Real-time collaboration features
+- **SortableJS**: Drag-and-drop functionality
+- **React Datepicker**: Date selection component
+
+### Backend
+- **Next.js API Routes**: Server-side functionality
+- **NextAuth**: Authentication system
+- **MongoDB**: Database for persistent storage
+- **Yjs**: CRDT for collaborative editing
+
+### Additional Libraries
+- **date-fns**: Date utility functions
+- **Font Awesome**: Icon library
+
+## Development Approach
+
+Logged was built with a focus on user experience and real-time collaboration. The application leverages modern web technologies to provide a seamless, responsive interface that works across devices. The real-time collaboration features make it particularly useful for distributed teams working on shared projects.

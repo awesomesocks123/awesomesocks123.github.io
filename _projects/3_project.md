@@ -1,81 +1,77 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Chamo Chat Application
+description: Capstone project revamped with modern UI and enhanced user experience
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+importance: 1
+category: personal
+github: https://github.com/awesomesocks123/chat
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Chamo v2: Revamped Chat Application
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[View on GitHub](https://github.com/awesomesocks123/chat)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Chamo v2 is a redesigned version of my original 2024 capstone project. This revamp focuses on enhancing user experience by streamlining features and implementing a more modern, intuitive UI. The application enables real-time communication through both private messaging and public chat rooms, with comprehensive social features.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+[![Chamo Demo Video](https://img.youtube.com/vi/ZOy6tygGEkw/0.jpg)](https://www.youtube.com/watch?v=ZOy6tygGEkw)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Capstone Project Evolution
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The original Chamo was developed as a team capstone project, with comprehensive documentation including design specifications, requirements, and testing methodologies. This v2 version represents my personal reflection on the project, where I've refined the user experience by:
 
-{% raw %}
+- Simplifying complex features for better usability
+- Redesigning the UI with modern aesthetic principles
+- Improving real-time performance and reliability
+- Enhancing mobile responsiveness
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Key Features
 
-{% endraw %}
+- **User Authentication**: Secure login and registration system
+- **Private Messaging**: One-on-one chat sessions with real-time updates
+- **Public Chat Rooms**: Categorized public rooms for group discussions
+- **Friend System**: Send, accept, and manage friend requests
+- **Random Chat Matching**: Connect with random users for spontaneous conversations
+- **User Blocking & Reporting**: Comprehensive privacy and moderation tools
+- **Responsive Design**: Seamless experience across desktop and mobile devices
+- **Theme Support**: Multiple theme options including light and dark mode
+
+## Architecture & Implementation
+
+### Backend
+- **Node.js & Express**: Core server framework
+- **MongoDB & Mongoose**: Database and ORM
+- **Socket.IO**: Real-time bidirectional communication
+- **JWT Authentication**: Secure user sessions
+- **RESTful API**: Structured endpoints for client-server interaction
+
+### Frontend
+- **React with Vite**: Modern UI framework and build tool
+- **Zustand**: Lightweight state management
+- **TailwindCSS & DaisyUI**: Utility-first styling with component library
+- **Socket.IO Client**: Real-time client updates
+- **Axios**: HTTP client for API requests
+- **React Router**: Navigation management
+- **react-hot-toast**: User notification system
+
+## Development Journey
+
+The project evolved through several phases, starting with basic authentication and UI development, then implementing real-time messaging functionality, followed by adding social features like friend requests and public rooms, and finally refining the user experience with theme support and UI improvements.
+
+![Chat Interface Preview](assets/img/chamo-preview.jpg)
+
+## Tech Stack
+
+- **Frontend**: React, Socket.io client
+- **Backend**: Node.js, Express
+- **Real-time**: Socket.io
+- **Database**: Firebase Firestore
+- **Authentication**: Firebase Auth
+
+## Coming Soon
+
+- End-to-end encryption
+- Voice and video calls
+- Custom themes and personalization

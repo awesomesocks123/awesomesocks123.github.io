@@ -1,80 +1,92 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Interview Mocker
+description: AI-powered technical interview practice tool
 img: assets/img/1.jpg
-importance: 3
-category: fun
+importance: 5
+category: personal
+github: https://github.com/awesomesocks123/interview-mocker
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Interview Mocker
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[View on GitHub](https://github.com/awesomesocks123/testmocks)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Overview
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Interview Mocker is an AI-powered technical interview practice tool that combines a Python backend with an Electron frontend. It allows users to practice technical interviews using real LeetCode problems, receive AI-generated feedback, and improve their interviewing skills through realistic simulations.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Features
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Clipboard Integration** Paste from clipboard to and paste into AI responses to enhance context
+- **Audio Recording**: Record verbal responses to interview questions
+- **AI Feedback**: Receive intelligent feedback from a simulated interviewer
+- **Response Replay**: Review previous AI responses for better learning
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## System Architecture
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+## Technology Stack
+
+### Backend (Python)
+- **Flask**: API server framework
+- **Flask-CORS**: Cross-origin resource sharing
+- **OpenAI**: AI model integration
+- **Whisper**: Speech-to-text transcription
+- **SoundDevice**: Audio recording
+- **Pyperclip**: Clipboard interaction
+
+### Frontend (Electron) *Coming Soon*
+- **Electron**: Cross-platform desktop application framework
+- **React**
+- **Node.js**
+
+## Development Process
+
+The Interview Mocker project was developed with a focus on creating a realistic technical interview experience. The application uses AI to simulate the role of an interviewer, providing contextual questions and feedback based on real LeetCode problems.
+
+The system architecture was designed to be modular, allowing for easy extension and maintenance. The separation of the frontend and backend components enables independent development and testing, while the integration layer ensures seamless communication between all parts of the system.
+
+This project demonstrates the power of combining modern web technologies with AI to create practical tools for developers to improve their technical interviewing skills.
+
+## User Workflow
+
+1. **Start the Application**: Launch the application using the provided start script
+2. **Select a Problem**: Enter a LeetCode problem URL to establish the interview context
+3. **Engage with the AI Interviewer**: Listen to the AI's introduction of the problem
+4. **Respond to Questions**: Record verbal responses to the interviewer's questions
+5. **Add Code Solutions**: Paste code from clipboard to enhance the interview context
+6. **Review Feedback**: Receive detailed feedback on your approach and solution
+7. **Practice Iteratively**: Try different problems or approaches to improve skills
+
+## Future Directions
+
+The Interview Mocker's architecture is designed with extensibility in mind, making it adaptable for various applications beyond technical interviews. The core system flow (user input → TTS → LLM API → text → ASR → user playback) can be leveraged for numerous use cases:
+
+### Expanded Applications
+
+- **Resume Review Simulation**: Mock interviews with personalized feedback on resume content
+- **Meeting Preparation**: Practice important client or stakeholder meetings
+- **Speech Rehearsal**: Prepare and refine presentations or public speaking engagements
+- **Self-Quizzing**: Generate and answer questions on any topic for learning reinforcement
+- **Language Practice**: Conversational practice for language learners with real-time feedback
+
+The simplicity of setup combined with the power of modern AI makes this system highly adaptable, with potential applications extending far beyond its current implementation.
+
+### Technical Architecture & Scaling
+
+The current implementation is a simple Python program that handles text playback and recording in the terminal, but the architecture is designed for significant scaling:
+
+- **API-First Design**: Nearly all components (except the LLM) are running locally for self-hosting potential
+- **Self-Hosting Potential**: As LLM technology improves with quantization and distillation techniques that preserve core intelligence, the entire system could be self-hosted
+- **Model Customization**: The system supports fine-tuned models, RAG implementations, and specialized reasoning models
+- **Prompt Engineering**: The current implementation can be enhanced with more sophisticated prompting strategies
+
+This simple yet powerful approach represents an optimal pattern for LLM integration and could serve as a building block for future AI-powered operating systems and applications. The modular design ensures that as individual components improve (speech recognition, text-to-speech, language models), the entire system benefits.
+
+## Conclusion
+
+The Interview Mocker project demonstrates how relatively simple components can be combined to create a powerful AI-assisted learning tool. By leveraging modern AI capabilities for speech recognition, natural language processing, and text-to-speech conversion, the application provides a valuable resource for technical interview preparation.
+
+As AI technologies continue to evolve and become more accessible, this project's architecture provides a flexible foundation that can adapt to incorporate new capabilities and address additional use cases beyond technical interviews.
