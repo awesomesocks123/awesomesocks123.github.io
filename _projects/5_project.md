@@ -14,7 +14,9 @@ github: https://github.com/awesomesocks123/interview-mocker
 
 ## Project Overview
 
-Interview Mocker is an AI-powered technical interview practice tool that combines a Python backend with an Electron frontend. It allows users to practice technical interviews using real LeetCode problems, receive AI-generated feedback, and improve their interviewing skills through realistic simulations.
+The Interview Mocker project was to help me praticing talking about myself in an interview environment. The application uses AI to simulate the role of an interviewer, providing contextual questions and feedback based on parsed resume and job description.
+
+
 
 ## Key Features
 
@@ -44,21 +46,9 @@ Interview Mocker is an AI-powered technical interview practice tool that combine
 
 ## Development Process
 
-The Interview Mocker project was developed with a focus on creating a realistic technical interview experience. The application uses AI to simulate the role of an interviewer, providing contextual questions and feedback based on real LeetCode problems.
-
-The system architecture was designed to be modular, allowing for easy extension and maintenance. The separation of the frontend and backend components enables independent development and testing, while the integration layer ensures seamless communication between all parts of the system.
+The system architecture was designed to be modular, allowing for easy extension and maintenance. The separation of the frontend and backend components enables independent development and testing.
 
 This project demonstrates the power of combining modern web technologies with AI to create practical tools for developers to improve their technical interviewing skills.
-
-## User Workflow
-
-1. **Start the Application**: Launch the application using the provided start script
-2. **Select a Problem**: Enter a LeetCode problem URL to establish the interview context
-3. **Engage with the AI Interviewer**: Listen to the AI's introduction of the problem
-4. **Respond to Questions**: Record verbal responses to the interviewer's questions
-5. **Add Code Solutions**: Paste code from clipboard to enhance the interview context
-6. **Review Feedback**: Receive detailed feedback on your approach and solution
-7. **Practice Iteratively**: Try different problems or approaches to improve skills
 
 ## Future Directions
 
