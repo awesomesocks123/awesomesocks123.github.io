@@ -26,8 +26,8 @@
       "name": "Walmart",
       "position": "Electronics Sales Associate",
       "url": "",
-      "startDate": "2024-07-01",
-      "endDate": "2024-11-01",
+      "startDate": "2024-01-07",
+      "endDate": "2024-11-15",
       "summary": "Delivered customer support on electronics products and resolved technical issues through first-line troubleshooting.",
       "highlights": []
     },
@@ -35,7 +35,7 @@
       "name": "Silvus Technologies",
       "position": "Test Automation & Diagnostics Technician",
       "url": "",
-      "startDate": "2024-07-01",
+      "startDate": "2024-07-17",
       "endDate": "Present",
       "summary": "Automation scripts and performing diagnostics for QA.",
       "highlights": [
@@ -134,7 +134,7 @@
       "url": "https://github.com/awesomesocks123/chat"
     },
     {
-      "name": "AI Desktop Mock Interviwer",
+      "name": "AI Desktop Mock Interviewer",
       "summary": "Built an Electron-based voice assistant overlay tool for personal productivity and LLM interaction. Integrated Whisper for speech-to-text, System Prompt Engineering, DeepSeek API for contextual LLM responses, and Kkokoro TTS for audio output.",
       "highlights": [
         "Designed a transparent floating chat overlay for passive multitasking",
